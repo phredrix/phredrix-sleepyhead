@@ -7,7 +7,7 @@
 QT += core gui opengl network xml
 
 greaterThan(QT_MAJOR_VERSION,4) {
-    QT += widgets webkitwidgets
+    QT += widgets webkitwidgets printsupport
 } else { # qt4
     QT += webkit
 }
